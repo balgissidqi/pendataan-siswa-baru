@@ -1,0 +1,7 @@
+<?php
+$koneksi = mysql_connect ("localhost","root","");
+if($koneksi) {
+    echo "koneksi berhasil";
+} else {
+    echo "koneksi gagal";
+}
